@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NAME: ${{ vars.name }}
-      TALENT: ${{ secrets.talent }}
+      NAME: ${{ vars.NEW_NAME }}
+      TALENT: ${{ secrets.PERSON }}
 
     steps:
       - name: Checkout Repository
